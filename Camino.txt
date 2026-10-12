@@ -1,0 +1,11 @@
+12/10/2026      Descomposicion de Velocidad en x e y
+
+Sabiendo una Velocidad en diagonal, esta compuesta por dos ejes, el x e y, a partir de eso
+sabemos que segun el angulo y por reglas de triangulos, que Seno = Opuesto/Hipotenusa y 
+Cos = Adyacente sobre Hipotenusa, por eso usamos el Coseno con el valor que nos da el
+ejercicio y el Seno con el mismo valor, pero diferente ubicacion pq ese valor 30,
+aparece en el otro triangulo del lado opuesto
+Formula:
+        Vx = Cos A x F
+        Vy = Sin A x F
+math.radians() convierte grados a radianes  Math.sin Math.cos
